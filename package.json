@@ -1,0 +1,37 @@
+{
+  "name": "asclient",
+  "version": "0.0.1",
+  "description": "Exchange ActiveSync Client for node.js",
+  "keywords": [
+    "exchange",
+    "activesync",
+    "active",
+    "sync",
+    "mail",
+    "email",
+    "calendar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clncln1/node-asclient.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clncln1/node-asclient/issues"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": {
+    "name": "Nico Haller",
+    "email": "nico.haller@gmail.com"
+  },
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "aswbxml": "^0.0.4",
+    "merge-descriptors": "^1.0.0",
+    "ntlm-client": "^0.0.5",
+    "request": "^2.65.0",
+    "xml2js": "^0.4.15"
+  }
+}
