@@ -1,6 +1,6 @@
 {
   "name": "asclient",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Exchange ActiveSync Client for node.js",
   "keywords": [
     "exchange",
@@ -30,7 +30,7 @@
   "dependencies": {
     "aswbxml": "^0.0.4",
     "merge-descriptors": "^1.0.0",
-    "ntlm-client": "^0.0.5",
+    "ntlm-client": "^0.1.0",
     "request": "^2.65.0",
     "xml2js": "^0.4.15"
   }

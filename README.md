@@ -1,6 +1,6 @@
 # asclient
 
-Exchange ActiveSync Client for node.js with support for NTLM authentication.
+Exchange ActiveSync Client for node.js with support for NTLM/NTLMv2/Basic authentication.
 In the current version, the client only supports device provisioning and folder synchronization.
 Support for write operations will follow.
 
