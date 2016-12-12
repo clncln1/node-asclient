@@ -114,6 +114,7 @@ then(myMailClient.sync.bind(myMailClient)).
 then(function() {
 	console.log('All went well');
 	console.log(myMailClient.contents);
+	console.log(myMailClient.policies);
 }, function(err) {
 	//handle error
 });
